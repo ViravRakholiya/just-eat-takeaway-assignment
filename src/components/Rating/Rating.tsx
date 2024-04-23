@@ -1,12 +1,16 @@
 import "./Rating.css";
 
-function Rating() {
+type RatingProps = {
+    starRating: number; // starRating is optional with a default type of number
+  };
+
+function Rating({ starRating }:RatingProps) {
     return (
         <div className="rating">
             <div className="rating-inner">
                 <div className="rating-i-1">
                     <div className="rating-i-2">
-                        <div className="rating-val">3.9</div>
+                        <div className="rating-val">{starRating}</div>
                         <div className="rating-star">
                             <i className="rating-star-i" color="#FFFFFF">
                                 <svg
