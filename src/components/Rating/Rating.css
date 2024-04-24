@@ -1,57 +1,60 @@
-.rating{
-    max-width: 20%;
-    display: flex;
-    align-content: center;
-    text-align: center;
-    -webkit-box-align: center;
-    align-items: center;
+.rating {
+  max-width: 20%;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 8px;
 }
-.rating-inner{
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    font-size: inherit;
-    cursor: unset;
+.rating-inner {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: inherit;
+  cursor: unset;
 }
-.rating-i-1{
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    background-color: rgb(36, 150, 63);
-    color: rgb(255, 255, 255);
-    height: 2rem;
-    min-width: 2.6rem;
-    padding: 0px 0.4rem;
-    font-size: 1.3rem;
-    border-radius: 0.6rem;
-    border: 1px solid rgb(36, 150, 63);
+.rating-i-1 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: rgb(36, 150, 63);
+  color: rgb(255, 255, 255);
+  height: 2rem;
+  min-width: 2.6rem;
+  padding: 0px 0.4rem;
+  font-size: 1.3rem;
+  border-radius: 0.6rem;
+  border: 1px solid rgb(36, 150, 63);
 }
-.rating-i-2{
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    font-size: inherit;
-    cursor: unset;
+.rating-i-2 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  font-size: inherit;
+  cursor: unset;
 }
-.rating-val{
-    margin-right: 0.2rem;
-    font-weight: 600;
-    font-size: inherit;
-    padding-bottom: 0.1rem;
+.rating-val {
+  margin-right: 0.2rem;
+  font-weight: 600;
+  font-size: inherit;
+  padding-bottom: 0.1rem;
 }
-.rating-star{
-    margin-left: 0px;
+
+.rating-high {
+  background-color: #24963F;
+  border-color: #24963F;
 }
-.rating-star-i{
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    cursor: inherit;
+.rating-medium {
+  background-color: #e9b501;
+  border-color: #e9b501;
 }
-.rating-svg{
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 1;
+.rating-low {
+  background-color: #f44336;
+  border-color: #f44336;
 }
